@@ -144,6 +144,171 @@ nav a:hover {
 	width: auto;
 }
 
+#featured_sets {
+	color: #612999;
+	font-family: Rubik;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 40px;
+	padding-bottom: 27px;
+}
+
+.cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card {
+	width: 376px;
+	height: 496px;
+	border-radius: 38px;
+	background: #EFECFF;
+	display: flex;
+	box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
+	position: relative;
+	margin-bottom: 32px;
+}
+
+#img_1card {
+	background: url("../images/Interstellar\ Spaceship.png");
+	width: 376px;
+	height: 276px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	border-radius: 38px;
+}
+
+#img_2card {
+	background: url("../images/Mars\ Crew\ Exploration\ Rover.png");
+	width: 376px;
+	height: 276px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	border-radius: 38px;
+}
+
+#img_3card {
+	background: url("../images/Planet\ Earth\ and\ Moon\ in\ Orbit.png");
+	width: 376px;
+	height: 276px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	border-radius: 38px;
+}
+
+#img_4card {
+	background: url("../images/Mars\ Space\ Base\ and\ Rocket.png");
+	width: 376px;
+	height: 276px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	border-radius: 38px;
+}
+
+#img_5card {
+	background: url("../images/Space\ Science\ Lab.png");
+	width: 376px;
+	height: 276px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	border-radius: 38px;
+}
+
+#img_6card {
+	background: url("../images/Modular\ Space\ Station.png");
+	width: 376px;
+	height: 276px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	border-radius: 38px;
+}
+
+.like_icon_button {
+	top: 35px;
+	right: 42px;
+	position: absolute;
+}
+
+.heart_icon {
+	width: 23px;
+	height: 20px;
+	top: 49px;
+	right: 54px;
+	position: absolute;
+}
+
+.item_description {
+	display: flex;
+	flex-direction: column;
+	padding-left: 32px;
+	position: absolute;
+	top: 297px;
+	gap: 7px;
+}
+
+h4 {
+	color: #000;
+	text-align: justify;
+	font-family: Abel;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.description {
+	color: #333;
+	font-family: Abel;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 315px;
+	height: 96px;
+}
+
+.price_and_cart {
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 36px;
+	left: 32px;
+	right: 51px;
+}
+
+.price {
+	color: #612999;
+	text-align: justify;
+	font-family: Abel;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.cart_icon_button {
+	width: 63px;
+	height: 63px;
+	display: flex;
+	padding: 14px;
+	border-radius: 50%;
+	background-color: #612999;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+}
+
 footer {
 	background: #EFECFF;
 	width: 100%;
