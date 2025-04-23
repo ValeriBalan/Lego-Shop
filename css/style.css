@@ -112,6 +112,38 @@ nav a:hover {
 	font-family: Nunito;
 }
 
+#About_section {
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	max-width: 100%;
+	padding-bottom: 32px;
+}
+
+#About_section h2 {
+	color: #612999;
+	font-family: Rubik;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 500;
+	width: 136.443px;
+	height: 40px;
+	padding-top: 32px;
+}
+
+#About_section p {
+	color: #000;
+	text-align: justify;
+	font-family: Rubik;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	display: flex;
+	gap: 24px;
+	width: auto;
+}
+
 footer {
 	background: #EFECFF;
 	width: 100%;
