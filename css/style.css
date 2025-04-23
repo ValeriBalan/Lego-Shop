@@ -51,6 +51,40 @@ header {
 	font-family: Nunito;
 }
 
+#background_container {
+	width: 100%;
+	height: auto;
+}
+
+#background_img {
+	background: url("../images/background.jpg");
+	max-width: 100%;
+	height: 797px;
+	padding: 32px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#enjoy {
+	color: #612999;
+	font-family: Nunito;
+	font-size: 96px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+#background_container p {
+	color: #000;
+	font-family: Nunito;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	width: 448px;
+}
+
 nav {
 	display: flex;
 	flex-wrap: wrap;
@@ -82,7 +116,6 @@ footer {
 	background: #EFECFF;
 	width: 100%;
 	height: auto;
-	
 	bottom: 0;
 	right: 0;
 	left: 0;
