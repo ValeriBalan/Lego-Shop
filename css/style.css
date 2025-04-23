@@ -390,6 +390,62 @@ h4 {
 	line-height: 14px;
 }
 
+#form_wrapper {
+	height: fit-content;
+	max-width: 100%;
+	padding-top: 32px;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+#your_choice {
+	width: 275px;
+	color: #612999;
+	font-family: Rubik;
+	font-size: 40px;
+	font-style: normal;
+	line-height: 40px;
+}
+
+#rectangle {
+	max-width: 100%;
+	border-radius: 38px;
+	background: #EFECFF;
+	padding: 32px;
+	font-size: 16px;
+	font-family: Abel;
+}
+
+#form_container {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.input_container {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+#name, #phone, #email {
+	border-radius: 38px;
+	width: 200px;
+	height: 25px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 10px 14px;
+}
+
+#submit {
+	background-color: #612999;
+	color: #fff;
+	max-width: fit-content;
+	padding: 10px 24px;
+	border-radius: 38px;
+}
+
 footer {
 	background: #EFECFF;
 	width: 100%;
