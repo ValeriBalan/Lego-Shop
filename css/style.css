@@ -448,6 +448,7 @@ h4 {
 
 footer {
 	background: #EFECFF;
+	position: fixed;
 	width: 100%;
 	height: auto;
 	bottom: 0;
